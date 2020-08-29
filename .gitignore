@@ -1,0 +1,7 @@
+*.pdf
+*.odt
+*.txt
+.idea/
+*.ods
+test.py
+untitled0.py
