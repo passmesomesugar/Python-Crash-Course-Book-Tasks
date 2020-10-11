@@ -9,6 +9,8 @@ According to Section 107 of the Copyright Act:
 This piece of code aims non-profit educational purposes.
  
 ## Enjoy.
+Python Logo Made with ♥ by Matthew Barber
+
                    _.gj8888888lkoz.,_                   
                 d888888888888888888888b,                
                j88P""V8888888888888888888               
@@ -36,3 +38,9 @@ j888888888888888888888888888888888888888'  8888888888888
                8888888888888888888baed88V               
                 `^888888888888888888888^                
                   `'"^^V888888888V^^'                   
+
+Art licensed under CC-BY-4
+Python logo by Tim Parkin Roboto font family by Christian Robertson and Google under Apache 2.0 Banner made by Tim Holman under MIT 
+
+
+                         
