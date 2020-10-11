@@ -10,7 +10,7 @@ Created on Fri Jul 24 16:18:49 2020
 
 
 # • Store the locations in a list. Make sure the list is not in alphabetical order.
-list = ["Akihabara", "Zanzibar" ,"New York", "Los Angeles","Neverland", "Nevermoreland", "Azeroth" ]
+list = ["Akihabara", "Zanzibar", "New York", "Los Angeles", "Neverland", "Nevermoreland", "Azeroth"]
 
 # • Print your list in its original order. Don’t worry about printing the list neatly,
 # just print it as a raw Python list.
@@ -32,7 +32,7 @@ print("\n")
 # • Use sorted() to print your list in reverse alphabetical order without changing
 # the order of the original list.
 print("Reverse alphabetical order")
-print(sorted(list,reverse=True))
+print(sorted(list, reverse=True))
 print("\n")
 
 # • Show that your list is still in its original order by printing it again.
@@ -66,8 +66,3 @@ print("\n")
 print("sort() with reverse")
 list.sort(reverse=True)
 print(list)
-
-
-
-
-
