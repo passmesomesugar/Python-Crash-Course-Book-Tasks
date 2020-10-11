@@ -5,3 +5,7 @@
 *.ods
 test.py
 untitled0.py
+*.mkv
+*.jpg
+*.png
+media/
