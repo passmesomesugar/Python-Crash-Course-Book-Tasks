@@ -20,5 +20,3 @@ print("Friends foods list:")
 for food in friend_foods:
     print(food)
 print('\n')
-
-

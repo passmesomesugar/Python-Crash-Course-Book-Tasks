@@ -10,8 +10,7 @@ Created on Thu Jul 23 14:19:36 2020
 # of people you are inviting to dinner.
 
 list = ["Jun'ichirō Tanizaki", "Kōbō Abe", "akutagawa ryunosuke"]
-print("Guest list contains" ,len(list) , "people")
-
+print("Guest list contains", len(list), "people")
 
 message = "I would love to see you at my dinner, mr." + list[0]
 print(message)
@@ -19,14 +18,14 @@ message = "I would love to see you at my dinner, mr." + list[1]
 print(message)
 message = "I would love to see you at my dinner, mr." + list[2].title()
 print(message)
-print("Guest list contains" ,len(list) , "people")
+print("Guest list contains", len(list), "people")
 
 print("New larger table has is available")
 
-list.insert(0,"Yasunari Kawabata")
-list.insert(round(len(list)/2),"Sunao Tokunaga")
+list.insert(0, "Yasunari Kawabata")
+list.insert(round(len(list) / 2), "Sunao Tokunaga")
 list.append("Isamu Yoshii")
-print("Guest list contains" ,len(list) , "people")
+print("Guest list contains", len(list), "people")
 print("Second round of invitations")
 
 message = "I would love to see you at my dinner, mr." + list[0]
@@ -41,7 +40,7 @@ message = "I would love to see you at my dinner, mr." + list[4].title()
 print(message)
 message = "I would love to see you at my dinner, mr." + list[5]
 print(message)
-print("Guest list contains" ,len(list) , "people")
+print("Guest list contains", len(list), "people")
 popped_guests = []
 print("Our table cannot be delivered")
 
@@ -62,6 +61,5 @@ popped_guest = list.pop()
 message = "I would love to see you at my dinner, mr." + popped_guest + " but I can't."
 print(message)
 
-print("Guest list contains" ,len(list) , "people")
+print("Guest list contains", len(list), "people")
 print(list)
-

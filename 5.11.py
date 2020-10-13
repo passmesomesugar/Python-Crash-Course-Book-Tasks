@@ -18,4 +18,3 @@ for number in list:
         print(f"{number}rd")
     else:
         print(f"{number}th")
-

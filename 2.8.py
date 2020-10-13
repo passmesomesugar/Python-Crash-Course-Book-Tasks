@@ -11,7 +11,7 @@ Created on Wed Jul 22 18:01:00 2020
 # Your output should simply be four lines with the number 8 appearing once
 # on each line.
 
-print(5+3)
-print(10-2)
-print(4*2)
-print(16/2)
+print(5 + 3)
+print(10 - 2)
+print(4 * 2)
+print(16 / 2)

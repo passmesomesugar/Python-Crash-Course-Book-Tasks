@@ -9,11 +9,9 @@ Created on Sat Oct 10 13:25:26 2020
 # Then, do the following:
 
 
-
-
 My_favorite_pizzas = ['Margherita', 'Marinara', 'Quattro Stagioni']
 friend_pizzas = My_favorite_pizzas[:]
-print(friend_pizzas) 
+print(friend_pizzas)
 
 # • Add a new pizza to the original list.
 My_favorite_pizzas.append('new pizza for pizzas - SundaySpecial')
@@ -32,6 +30,3 @@ print('\n')
 print("My friend’s favorite pizzas are:")
 for friends_pizza in friend_pizzas:
     print(friends_pizza)
-
-
-

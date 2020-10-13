@@ -30,8 +30,8 @@ print(message)
 
 print("New larger table has is available")
 
-list.insert(0,"Yasunari Kawabata")
-list.insert(round(len(list)/2),"Sunao Tokunaga")
+list.insert(0, "Yasunari Kawabata")
+list.insert(round(len(list) / 2), "Sunao Tokunaga")
 list.append("Isamu Yoshii")
 print("Second round of invitations")
 
@@ -69,4 +69,3 @@ message = "I would love to see you at my dinner, mr." + popped_guest + " but I c
 print(message)
 
 print(list)
-

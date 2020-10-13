@@ -10,10 +10,8 @@ Created on Sat Oct 10 12:19:25 2020
 # is, the cube of each integer from 1 through 10), and use a for loop to print out
 # the value of each cube.
 list_of_cubes = []
-for value in range(1,10):
-    value_to_append = value**3;
+for value in range(1, 10):
+    value_to_append = value ** 3;
     print(value_to_append)
-    list_of_cubes.append(value_to_append) 
+    list_of_cubes.append(value_to_append)
 print(list_of_cubes)
-
-

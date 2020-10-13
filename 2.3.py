@@ -10,7 +10,6 @@ Created on Wed Jul 22 17:49:51 2020
 # would you like to learn some Python today?”
 
 
-
 name = "Eric Clapton"
-message = 'Hello ' + name + ", would you like to learn some Python today?" 
+message = 'Hello ' + name + ", would you like to learn some Python today?"
 print(message)

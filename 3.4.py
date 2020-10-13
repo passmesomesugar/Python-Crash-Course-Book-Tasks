@@ -11,7 +11,7 @@ Created on Thu Jul 23 13:56:35 2020
 # them to dinner.
 
 
-list = ["Einstein", "John the builder"  , "akutagawa ryunosuke"]
+list = ["Einstein", "John the builder", "akutagawa ryunosuke"]
 
 message = "I would love to see you at my dinner, mr." + list[0]
 print(message)
