@@ -8,3 +8,4 @@ untitled0.py
 *.mkv
 *.jpg
 media/
+__pycache__/
