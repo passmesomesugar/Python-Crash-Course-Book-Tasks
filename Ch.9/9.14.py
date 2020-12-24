@@ -4,8 +4,8 @@
 # prize.
 import random
 
-numbers = ['1', '2', '565', '56', '79', '41', '69', '151', '1', '3']
-letters = ['a', 'b', 'z', 'm']
+numbers = ['11', '22', '33', '44', '55', '66', '77', '88', '99', '00']
+letters = ['a', 'b', 'x', 'y']
 random_number = numbers[random.randint(0, len(numbers))]
 random_letter = letters[random.randint(0, len(letters))]
 prize_number = random_letter + random_number

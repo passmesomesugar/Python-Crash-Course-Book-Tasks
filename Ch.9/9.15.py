@@ -4,21 +4,23 @@
 # reporting how many times the loop had to run to give you a winning ticket.
 import random
 
-numbers = ['1', '2', '565', '56', '79', '41', '69', '151', '1', '3']
-letters = ['a', 'b', 'z', 'm']
-my_prize_number = 'a56'
-random_number = numbers[random.randint(0, len(numbers))]
-random_letter = letters[random.randint(0, len(letters))]
+numbers = ['11', '22', '33', '44', '55', '66', '77', '88', '99', '00']
+letters = ['a', 'b', 'x', 'y']
+my_ticket = 'y55'
+counter = 0
+win_ticket = ''
 
 
-def roll():
-    prize_number = random_letter + random_number
-    return prize_number
+def generate_ticket():
+    random_number = numbers[random.randint(0, len(numbers) - 1)]
+    random_letter = letters[random.randint(0, len(letters) - 1)]
+    return random_letter + random_number
 
 
-while my_prize_number != prize_number:
-    prize_number = random_letter + random_number
-    print("Current prize number is:")
-    print(prize_number)
-else:
-    print("You finally won")
+while True:
+    win_ticket = generate_ticket()
+    print(f"Currently win ticket is: {win_ticket}")
+    counter += 1
+    if win_ticket == my_ticket:
+        print(f"It took {counter} attempts")
+        break

@@ -5,6 +5,6 @@
 
 import restaurant
 
-duck_eat_dog = restaurant.Restaurant("Duck eat dog", "Random")
+duck_eat_dog = restaurant.Restaurant("Duck eat dog", "Eco food")
 duck_eat_dog.open_restaurant()
 duck_eat_dog.describe_restaurant()
