@@ -1,0 +1,6 @@
+C++ C++ C++
+
+In C++ you can think you can code.
+In C++ you can analyze data.
+In C++ you can automate typical tasks.
+
