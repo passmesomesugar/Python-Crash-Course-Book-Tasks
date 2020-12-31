@@ -31,6 +31,8 @@ def count_words_frequency(filename, string_we_are_looking_for):
     else:
         words = contents
         print(f"word '{string_we_are_looking_for}' appears in text {words.count(string_we_are_looking_for)} times")
+        print(f"word '{string_we_are_looking_for}' appears in text ")
+        print(f"{words.lower().count(string_we_are_looking_for)} times, including capital case scenarios")
 
 
 source_file = "Pride_And_Prejudice.txt"

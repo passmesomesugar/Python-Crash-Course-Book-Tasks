@@ -1,4 +1,7 @@
-filename = 'programming.txt'
+import json
+
+numbers = [2, 3, 5, 7, 11, 13]
+filename = 'numbers.json'
 with open(filename, 'w') as file_object:
-    file_object.write("Sample text data\n")
-    file_object.write("Sample text data")
+    json.dump(numbers, file_object)
+
