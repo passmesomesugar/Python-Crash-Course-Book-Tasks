@@ -9,3 +9,4 @@ untitled0.py
 *.jpg
 media/
 __pycache__/
+.pytest_cache/
