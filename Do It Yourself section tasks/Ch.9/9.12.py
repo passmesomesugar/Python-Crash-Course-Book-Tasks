@@ -3,7 +3,7 @@
 # an Admin instance and call show_privileges() to show that everything is still
 # working correctly.
 
-import user, admin_and_privileges
+import admin_and_privileges
 
 super_new_strict_admin = admin_and_privileges.Admin("Bully", "The bad boy", 35)
 super_new_strict_admin.privileges.show_privileges()
