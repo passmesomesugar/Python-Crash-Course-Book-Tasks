@@ -1,6 +1,6 @@
 # About
 
-"Try it yourself" section from Python Crash Course, 2nd Edition A Hands-On, Project-Based Introduction to Programming by Eric Matthes.
+"Try it yourself" and Projects section from Python Crash Course, 2nd Edition A Hands-On, Project-Based Introduction to Programming by Eric Matthes.
 
 ## Fair use disclaimer:
 
