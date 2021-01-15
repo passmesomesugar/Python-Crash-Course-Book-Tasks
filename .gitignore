@@ -1,6 +1,7 @@
 *.pdf
 *.odt
 *.txt
+*.lnk
 .idea/
 *.ods
 test.py
@@ -10,3 +11,4 @@ untitled0.py
 media/
 __pycache__/
 .pytest_cache/
+venv/
