@@ -4,9 +4,11 @@
 *.lnk
 .idea/
 *.ods
+*.bmp
 test.py
 untitled0.py
 *.mkv
+*.mp4
 *.jpg
 media/
 __pycache__/

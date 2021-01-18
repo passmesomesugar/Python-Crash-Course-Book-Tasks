@@ -2,6 +2,8 @@ import sys
 import pygame
 
 
+# 12-1. Blue Sky: Make a Pygame window with a blue background.
+
 class BlueBackground:
 
     def __init__(self):
