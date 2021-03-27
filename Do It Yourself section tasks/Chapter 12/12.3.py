@@ -33,9 +33,9 @@ class RocketGame:
             if event.type == pygame.QUIT:
                 sys.exit()
             elif event.type == pygame.KEYDOWN:
-                self._check_keydown_events(event);
+                self._check_keydown_events(event)
             elif event.type == pygame.KEYUP:
-                self._check_keyup_events(event);
+                self._check_keyup_events(event)
 
     def _check_keydown_events(self, event):
         if event.key == pygame.K_RIGHT:
@@ -58,6 +58,8 @@ class RocketGame:
             self.rocket.moving_up = False
         elif event.key == pygame.K_DOWN:
             self.rocket.moving_down = False
+        elif event.key == pygame.K_q:
+            sys.exit()
 
     def _update_screen(self):
         self.screen.fill(self.settings.bg_color)

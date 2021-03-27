@@ -14,6 +14,7 @@ class AlienInvasion:
         self.settings.screen_width = self.screen.get_rect().width
         self.settings.screen_height = self.screen.get_rect().height
         pygame.display.set_caption("Alien invasion")
+        # ship = Ship(ai_settings, screen)
         self.ship = Ship(self)
 
     def run_game(self):
@@ -55,5 +56,3 @@ class AlienInvasion:
 if __name__ == '__main__':
     ai = AlienInvasion()
     ai.run_game()
-
-

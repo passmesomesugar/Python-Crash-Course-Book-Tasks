@@ -7,8 +7,7 @@ class Vivi:
         self.screen = ai_game.screen
         self.screen_rect = ai_game.screen.get_rect()
 
-        self.image = pygame.image.load('images/vivi.bmp')
-        self.image = pygame.transform.scale(self.image, (60, 75))
+        self.image = pygame.image.load('images/vivi.png')
         self.rect = self.image.get_rect()
 
         self.rect.midbottom = self.screen_rect.midbottom
